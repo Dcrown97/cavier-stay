@@ -68,7 +68,7 @@
                             average.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                {{-- <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                         <li class="nav-item me-2">
                             <a class="btn btn-outline-primary @if (!request('sale_type_id')) active @endif"
@@ -83,7 +83,7 @@
                             @endforeach
                         @endif
                     </ul>
-                </div>
+                </div> --}}
             </div>
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">
@@ -100,13 +100,13 @@
                                         <a href="/property_details/{{ $property->id }}"><img class="img-fluid"
                                                 src="{{ $firstImage ? asset('storage/properties/' . $firstImage) : '' }}"
                                                 alt=""></a>
-                                        <div
+                                        {{-- <div
                                             class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
                                             {{ $property->saleType->name }}</div>
                                         <div
                                             class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
                                             {{ $property->propertyType ? $property->propertyType->name : 'No Property Type' }}
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     <div class="p-4 pb-0">
                                         @if (isset($property->price))
@@ -266,7 +266,7 @@
                                     and colleagues.
                                 </p>
                             </div>
-                            <a href="tel:+2348177245589" class="btn btn-primary py-3 px-4 me-2">
+                            <a href="tel:+2349168686728" class="btn btn-primary py-3 px-4 me-2">
                                 <i class="fa fa-phone-alt me-2"></i>Make A Call
                             </a>
                             <a href="/contact" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get

@@ -77,14 +77,14 @@
                 <div class="col-lg-8">
                     <h2>{{ $property->name ?? null }}</h2>
                     <div class="d-flex align-items-center mb-3">
-                        <span><i
-                                class="fa fa-home me-2"></i>{{ $property->propertyType ? $property->propertyType->name : 'No Property Type' }}</span>
-                        <span class="mx-3">|</span>
+                        {{-- <span><i
+                                class="fa fa-home me-2"></i>{{ $property->propertyType ? $property->propertyType->name : 'No Property Type' }}</span> --}}
+                        {{-- <span class="mx-3">|</span> --}}
                         <span><i class="fa fa-bath me-2"></i>{{ $property->bath }} Bathrooms & Toilet</span>
                         <span class="mx-3">|</span>
                         <span><i class="fa fa-bed me-2"></i>{{ $property->bed }} Bedrooms</span>
                     </div>
-                    <div class="badge bg-primary mb-3">{{ $property->saleType->name }}</div>
+                    {{-- <div class="badge bg-primary mb-3">{{ $property->saleType->name }}</div> --}}
                     <p>{{ $property->address }}</p>
 
                     <div class="row g-2 gallery">
@@ -125,8 +125,8 @@
                         @foreach (array_slice($images, 4) as $index => $image)
                             <a href="{{ asset('storage/properties/' . $image) }}" data-fancybox="gallery"
                                 data-caption="Property Image {{ $index + 5 }}" style="display: none;">
-                                <img src="{{ asset('storage/properties/' . $image) }}" alt="Property Image {{ $index + 5 }}"
-                                    class="img-fluid rounded">
+                                <img src="{{ asset('storage/properties/' . $image) }}"
+                                    alt="Property Image {{ $index + 5 }}" class="img-fluid rounded">
                             </a>
                         @endforeach
                     </div>
