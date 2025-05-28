@@ -91,7 +91,10 @@
                         <h5 class="text-white mb-4">Get In Touch</h5>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>142 Ahmadu Bello Way, Victoria
                             Island, Lagos, Nigeria</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+2348177245589 or +2349168686728</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>
+                            <span>Sales: +2348177245589 & 08056842804</span>
+                            <span>Customer support: +2349168686728 & +234 911 242 6568</span>
+                        </p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@cavierproperties.com
                             guests@cavierproperties.com</p>
                         <div class="d-flex pt-2">

@@ -65,7 +65,7 @@
                                 <p>Our exclusive marketing strategies will position your home to reach virtually every buyer
                                     through robust syndication</p>
                             </div>
-                            <a href="tel:+2348177245589" class="btn btn-primary py-3 px-4 me-2">
+                            <a href="tel:+2349168686728" class="btn btn-primary py-3 px-4 me-2">
                                 <i class="fa fa-phone-alt me-2"></i>Make A Call
                             </a>
                             <a href="/contact" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get

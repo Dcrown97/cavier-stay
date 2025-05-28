@@ -96,7 +96,9 @@
                                     <div class="icon me-3" style="width: 45px; height: 45px;">
                                         <i class="fa fa-phone-alt text-primary"></i>
                                     </div>
-                                    <span>+2348177245589 or +2349168686728</span>
+                                    <p><span>Sales: +2348177245589 & 08056842804</span> <br>
+                                        <span>Customer support: +2349168686728 & +234 911 242 6568</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
